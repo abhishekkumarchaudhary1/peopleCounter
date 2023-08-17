@@ -1,0 +1,25 @@
+#inc_btn, #dec_btn{
+    display: block;
+    cursor: pointer;
+    height: 40px;
+    width: 100px;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 2px 2px 2px rgb(30, 28, 28);
+    font-weight: 600;
+}
+#inc_btn{
+    margin: 0 auto;
+    background-color: rgb(8, 213, 148);
+}
+#dec_btn{
+    background-color: rgb(213, 8, 8);
+    margin: 10px auto 0;
+}
+#inc_btn:hover, #dec_btn:hover{
+    box-shadow: none;
+}
+h1,h2,p{
+    text-align: center;
+    margin: 10px auto;
+}
